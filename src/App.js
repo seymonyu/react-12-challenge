@@ -17,7 +17,7 @@ class App extends Component {
     this.state = {
       activeId: "home"
     };
-    this.handleChange = this.handleChange.bind(this);
+    this.handleChangeTab = this.handleChangeTab.bind(this);
   }
   handleChangeTab(event) {
     const buttonId = event.target.id;
